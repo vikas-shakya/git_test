@@ -1,0 +1,138 @@
+ 1  cd documents
+    2  mkdir temp
+    3  cd temp
+    4  git init
+    5  git show head
+    6  git config --global user.name "vikas shakya"
+    7  git config --global user.email vikasshakya9870@gmail.com
+    8  code
+    9  git config --global code.editor "code --wait"
+   10  git config --global -e
+   11  git --global -e
+   12  git config --global -e
+   13  git config --global -e
+   14  code
+   15  git config --global core.autocrlf true
+   16  git init
+   17  git --help
+   18  ls
+   19  ls -a
+   20  open .git
+   21  open .git
+   22  posh-git
+   23  rm -rf .git
+   24  git init
+   25  echo hello > firle1.txt
+   26  ls
+   27  echo hello > file1.txt
+   28  echo hello > file2.txt
+   29  git status
+   30  git add .
+   31  git status
+   32  echo world >> file1.txt
+   33  git status
+   34  git add .
+   35  git status
+   36  rm firle1.txt
+   37  git status
+   38  git add .
+   39  git status
+   40  git commit -m "tetsing stating area."
+   41  git commimt
+   42  git commit
+   43  echo text >> filr1.txt
+   44  git commit -am "Without staging area"
+   45  echo text >> file1.txt
+   46  git commit -am "Without staging area"
+   47  git push https://github.com/vikas-shakya/GitCheatSheet.git
+   48  git add *
+   49  git push https://github.com/vikas-shakya/GitCheatSheet.git
+   50  git remote add main https://github.com/vikas-shakya/GitCheatSheet.git
+   51  git status
+   52  git commit -m "cheat sheets uploaded"
+   53  git clone https://github.com/vikas-shakya/GitCheatSheet.git
+   54  git branch
+   55  git branch main
+   56  git branch
+   57  git checkout main
+   58  git status
+   59  git checkout master
+   60  git status
+   61  git checkout main
+   62  git add .
+   63  git status
+   64  git add .
+   65  git push origin main
+   66  git checkout master
+   67  git push origin master
+   68  git push origin master https://github.com/vikas-shakya/GitCheatSheet.git
+   69  git init
+   70  touch file1.txt
+   71  echo "file1.txt hello ">>file1.txt
+   72  git status
+   73  git add .
+   74  git status
+   75  git status
+   76  git commit -m "file1.txt added"
+   77  git status
+   78  git push origin master
+   79  git push origin master
+   80  git push origin main
+   81  git branch -M master
+   82  git push origin master
+   83  git remote add origin https://github.com/vikas-shakya/git_test.git
+   84  git push origin master
+   85  git clone https://github.com/vikas-shakya/GitCheatSheet.git
+   86  git add .
+   87  git status
+   88  git push origin master
+   89  git status
+   90  git add .
+   91  git status
+   92  git push origin master
+   93  git remote add origin https://github.com/vikas-shakya/git_test.git
+   94  git push origin master
+   95  git commit -m "Cheat sheets added"
+   96  git push origin master
+   97  git status
+   98  git add .
+   99  git commit -m "OOc Journal"
+  100  git push origin master
+  101  git pull origin master
+  102  git status
+  103  git branch
+  104  git fetch
+  105  git checkout -b sensei
+  106  git diff
+  107  git diff master
+  108  git diff master
+  109  git status
+  110  git commit-m "Code.txt added"
+  111  git commit -m "Code.txt added"
+  112  git add .
+  113  git commit -m "Code.txt added"
+  114  ls
+  115  git diff master
+  116  git checkout master
+  117  git merge master
+  118  git push -u orirgin sensei
+  119  git remote add origin https://github.com/vikas-shakya/git_test.git
+  120  git push orirgin sensei
+  121  git push origin sensei
+  122  git merge sensei
+  123  git push origin master
+  124  git pull
+  125  git pull https://github.com/vikas-shakya/git_test.git sensei
+  126  git pull https://github.com/vikas-shakya/git_test.git master
+  127  git pull
+  128  git branch -d sensei
+  129  git branch
+  130  git log
+  131  git show
+  132  git show
+  133  git log
+  134  git log --online
+  135  git log --oneline
+  136  git log --log-size
+  137  git history
+  138  history
